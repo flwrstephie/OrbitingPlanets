@@ -358,7 +358,11 @@
 "Assets/Scripts/LerpInterpolation.cs"
 "Assets/Scripts/MarsMoonOrbit.cs"
 "Assets/Scripts/MarsPlanet.cs"
+"Assets/Scripts/NeptuneMoonOrbit.cs"
+"Assets/Scripts/NeptunePlanet.cs"
 "Assets/Scripts/PlanetBehavior.cs"
+"Assets/Scripts/PlayerNavigation.cs"
+"Assets/Scripts/StaticFlicker.cs"
 -langversion:9.0
 /deterministic
 /optimize+

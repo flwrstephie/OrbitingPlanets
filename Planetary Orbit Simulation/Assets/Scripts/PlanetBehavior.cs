@@ -7,7 +7,7 @@ public abstract class PlanetBehavior : MonoBehaviour
 
     public virtual float CalculateGravitationalForce(float moonMass, float distance)
     {
-        distance = Mathf.Clamp(distance, 2f, 50f);
+        distance = Mathf.Clamp(distance, 2f, 10f);
         return GravitationalConstant * (moonMass * Mass) / (distance * distance);
     }
 }
